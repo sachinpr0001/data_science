@@ -46,7 +46,7 @@ output[y_offset:y_offset+center.shape[0], x_offset:x_offset+center.shape[1]] = c
 # Saving as .csv
 
 output = np.reshape(output,(-1,3))
-pd.DataFrame(data = output).to_csv('submission.csv', header = ['r','g','b'], index = False)
+pd.DataFrame(data = output).to_csv('output.csv', header = ['r','g','b'], index = False)
 
 # View the output
 
