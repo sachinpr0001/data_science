@@ -44,7 +44,7 @@ def echo_sticker(update: Update, context: CallbackContext):
 if __name__ == '__main__':
 
     bot = Bot(TOKEN)
-    bot.set_webhook(url="https://55dc-122-177-110-204.ngrok.io/{}".format(TOKEN))
+    bot.set_webhook(url="https://2d5f-122-177-110-204.ngrok.io/{}".format(TOKEN))
 
     dp = Dispatcher(bot, None)
     dp.add_handler(CommandHandler("start", start))
